@@ -15,17 +15,21 @@ Input handling:
 Trying to enter a number w/ mutliple decimals results in ignored input.  
 Trying to enter an operator w/o having entered a number first results in ignored input.  
 After entering an equation, subsequent clicks of the += button will result in applying the previous calculation repeatedly:
+  
 | Input  | 5 | += | 2 | += | += | += |
 | ------ | - | -- | - | -- | -- | -- |
 | Output |   |    |   | 7  | 9  | 11 |
-
+  
 | Input  | 5 | * | 2 | += | += | += |
 | ------ | - | - | - | -- | -- | -- |
 | Output |   |   |   | 10 | 20 | 40 |  
+  
 I watched a youtube video on rapidman 800 operation, and it seemed like pressing any operator should instantly calculate the most recently entered (full) equation:  
+  
 | Input  | 3 | * | 2 | - | 1 | += | 12 | += | 1 | += | += | - | 14 | += |
 | ------ | - | - | - | - | - | -- | -- | -- | - | -- | -- | - | -- | -- |
-| Output |   |   |   | 6 |   | 5  |    | 17 |   | 18 | 19 |   |    | 5  |  
+| Output |   |   |   | 6 |   | 5  |    | 17 |   | 18 | 19 |   |    | 5  | 
+   
 ------
 #### Chaining input
 The one side effect of this is that chaining addition must be done in a specific way:  
