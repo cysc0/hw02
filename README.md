@@ -12,6 +12,7 @@
 Input handling:  
 Trying to enter a number w/ mutliple decimals results in ignored input.  
 Trying to enter an operator w/o having entered a number first results in ignored input.  
+Hitting clear resets the calc entirely. There is no way to clear only the currently entered number.  
 After entering an equation, subsequent clicks of the += button will result in applying the previous calculation repeatedly:
   
 | Input  | 5 | += | 2 | += | += | += |
