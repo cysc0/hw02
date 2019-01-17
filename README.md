@@ -21,7 +21,7 @@ After entering an equation, subsequent clicks of the += button will result in ap
 
 | Input  | 5 | * | 2 | += | += | += |
 | ------ | - | - | - | -- | -- | -- |
-| Output |   |   |   | 10 | 20 | 40 |
+| Output |   |   |   | 10 | 20 | 40 |  
 I watched a youtube video on rapidman 800 operation, and it seemed like pressing any operator should instantly calculate the most recently entered (full) equation:  
 | Input  | 3 | * | 2 | - | 1 | += | 12 | += | 1 | += | += | - | 14 | += |
 | ------ | - | - | - | - | - | -- | -- | -- | - | -- | -- | - | -- | -- |
