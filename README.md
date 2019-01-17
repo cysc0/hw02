@@ -10,7 +10,12 @@
 4) index.html - landing page for HW02  
 5) partA.html - html page for part A  
 6) partB.html - html page for part B  
-7) TODO: nginx
+7) hw02.zombo.club - nginx config for hw02 subdomain
   
 #### About the calculator:
-TODO:
+I blocked erroneous input. Trying to enter a number with multiple decimal points
+results in the input being ignored. Trying to press subsequent operators (without
+operands) results in ignored input.  
+After successfully entering a full equation and receiving a result, subsequent
+clicks of the += operator will continuously re-apply the most recent operation,
+allowing for incrementing behavior.
