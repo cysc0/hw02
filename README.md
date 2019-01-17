@@ -13,11 +13,11 @@
 7) hw02.zombo.club - nginx config for hw02 subdomain
   
 #### About the calculator:
-I blocked erroneous input. Trying to enter a number with multiple decimal points
-results in the input being ignored. Trying to press subsequent operators (without
-operands) results in ignored input.  
-After successfully entering a full equation and receiving a result, subsequent
-clicks of the += operator will continuously re-apply the most recent operation,
-allowing for incrementing behavior.
-Also, after entering an equation and receiving a result, any NUMERIC button
-press will result in starting an entirely new equation.
+Input handling:  
+Trying to enter a number w/ mutliple decimals results in ignored input.  
+Trying to enter an operator w/o having entered a number first results in ignored input.  
+  
+After entering an equation, subsequent clicks of the += button will result
+in applying the previous calculation repeatedly
+&nbsp;input:&nbsp;&nbsp;3&nbsp;+=&nbsp;2&nbsp;+=&nbsp;+=&nbsp;+=&nbsp;+=
+&nbsp;output:&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;7&nbsp;&nbsp;
