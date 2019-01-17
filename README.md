@@ -37,6 +37,7 @@ How to properly chain addition:
 | Input  | 3 | += | 2 | += | 4 | += | 12 | += | 32 | += |
 | ------ | - | -- | - | -- | - | -- | -- | -- | -- | -- |
 | Output |   |    |   | 5  |   | 9  |    | 21 |    | 53 |  
+  
 How NOT to chain addition (this repeats last operation, rather than allows for new operand entry):  
 | Input  | 3 | += | 2 | += | += (WRONG) |
 | ------ | - | -- | - | -- | ---------- |
