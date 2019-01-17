@@ -22,10 +22,10 @@ After entering an equation, subsequent clicks of the += button will result in ap
 | Input  | 5 | * | 2 | += | += | += |
 | ------ | - | - | - | -- | -- | -- |
 | Output |   |   |   | 10 | 20 | 40 |
-I watched a youtube video on rapidman 800 operation, and it seemed like pressing any operator should instantly calculate the most recently entered (full) equation:
+I watched a youtube video on rapidman 800 operation, and it seemed like pressing any operator should instantly calculate the most recently entered (full) equation:  
 | Input  | 3 | * | 2 | - | 1 | += | 12 | += | 1 | += | += | - | 14 | += |
 | ------ | - | - | - | - | - | -- | -- | -- | - | -- | -- | - | -- | -- |
-| Output |   |   |   | 6 |   | 5  |    | 17 |   | 18 | 19 |   |    | 5  |
+| Output |   |   |   | 6 |   | 5  |    | 17 |   | 18 | 19 |   |    | 5  |  
 ------
 #### Chaining input
 The one side effect of this is that chaining addition must be done in a specific way:  
@@ -33,7 +33,7 @@ How to properly chain addition:
 | Input  | 3 | += | 2 | += | 4 | += | 12 | += | 32 | += |
 | ------ | - | -- | - | -- | - | -- | -- | -- | -- | -- |
 | Output |   |    |   | 5  |   | 9  |    | 21 |    | 53 |  
-How NOT to chain addition (this repeats last operation, rather than allows for new operand entry):
+How NOT to chain addition (this repeats last operation, rather than allows for new operand entry):  
 | Input  | 3 | += | 2 | += | += (WRONG) |
 | ------ | - | -- | - | -- | ---------- |
 | Output |   |    |   | 5  |     7      |
