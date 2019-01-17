@@ -23,7 +23,7 @@ After entering an equation, subsequent clicks of the += button will result in ap
 | ------ | - | - | - | -- | -- | -- |
 | Output |   |   |   | 10 | 20 | 40 |  
   
-I watched a youtube video on rapidman 800 operation, and it seemed like pressing any operator should instantly calculate the most recently entered (full) equation:  
+I watched a youtube video on rapidman 800 operation, and it seemed like pressing any operator should instantly calculate the most recently entered (full) equation (unless the user has pressed equals, then typed a new operator to apply to the previous answer and the next number input):  
   
 | Input  | 3 | * | 2 | - | 1 | += | 12 | += | 1 | += | += | - | 14 | += | * | 2 | += |
 | ------ | - | - | - | - | - | -- | -- | -- | - | -- | -- | - | -- | -- | - | - | -- |
