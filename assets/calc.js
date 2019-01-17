@@ -88,7 +88,6 @@ function processOp(e) {
         // gotten the result, then keeps pressing +=
         // This is to simulate 3 x 3 = 9 = 27 = 81
         // aka it keeps applying the most recently applied operation
-        console.log('wee');
         state.current = state.loop;
         state.operator = state.prevOperator;
         solve();
@@ -96,6 +95,10 @@ function processOp(e) {
         state.previous = state.result;
         state.loop = state.current;
         state.current = null;
+        state.operator = e.target.value;
+    } else {
+        // Case 4: if the user has entered an equation, pressed +=, then
+        // clicked another operator
         state.operator = e.target.value;
     }
 }
