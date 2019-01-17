@@ -1,0 +1,41 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 4px;
+}
+
+.color1 {
+  color: maroon;
+}
+
+.color2 {
+  color: orange;
+}
+
+.color3 {
+  color: green;
+}
+
+.color4 {
+  color: navy;
+}
+
+.color5 {
+  color: purple;
+}
+
+.color6 {
+  color: olive;
+}
+
+.color7 {
+  color: red;
+}
+
+.color8 {
+  color: yellow;
+}
+
+.color9 {
+  color: aqua;
+}

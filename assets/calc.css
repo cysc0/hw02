@@ -1,0 +1,19 @@
+.calcbutton {
+    width: 2em;
+    font-size: 150%;
+    height: 2em;
+    margin: 1px;
+    border: 1px solid black;
+    padding: 1px;
+}
+
+#display {
+    text-align: right;
+    width: 8.6em;
+    font-size: 150%;
+    height: 2em;
+    margin: 1px;
+    margin-left: 1px;
+    border: 1px solid black;
+    padding: 1px;
+}
