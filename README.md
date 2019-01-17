@@ -11,3 +11,6 @@
 5) partA.html - html page for part A  
 6) partB.html - html page for part B  
 7) TODO: nginx
+  
+#### About the calculator:
+TODO:
