@@ -1,0 +1,17 @@
+# Source http://khoury.neu.edu/~ntuck/courses/2019/01/cs4550/notes/01-welcome/notes.html - Nat Tuck
+server {
+        listen 80;
+        listen [::]:80;
+
+        root /home/cisco/www/hw02.zombo.club;
+
+        index index.html;
+
+        server_name hw02.zombo.club;
+
+        location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                try_files $uri $uri/ =404;
+        }
+}
