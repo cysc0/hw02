@@ -34,6 +34,7 @@ I watched a youtube video on rapidman 800 operation, and it seemed like pressing
 #### Chaining input
 The one side effect of this is that chaining addition must be done in a specific way:  
 How to properly chain addition:  
+  
 | Input  | 3 | += | 2 | += | 4 | += | 12 | += | 32 | += |
 | ------ | - | -- | - | -- | - | -- | -- | -- | -- | -- |
 | Output |   |    |   | 5  |   | 9  |    | 21 |    | 53 |  
