@@ -19,5 +19,5 @@ Trying to enter an operator w/o having entered a number first results in ignored
   
 After entering an equation, subsequent clicks of the += button will result
 in applying the previous calculation repeatedly
-&nbsp;&nbsp;&nbsp;input:3&nbsp;+=&nbsp;2&nbsp;+=&nbsp;+=&nbsp;+=
+&nbsp;&nbsp;&nbsp;input:3&nbsp;+=&nbsp;2&nbsp;+=&nbsp;+=&nbsp;+=  
 &nbsp;&nbsp;     output:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;7&nbsp;&nbsp;
