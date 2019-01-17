@@ -25,9 +25,9 @@ After entering an equation, subsequent clicks of the += button will result in ap
   
 I watched a youtube video on rapidman 800 operation, and it seemed like pressing any operator should instantly calculate the most recently entered (full) equation:  
   
-| Input  | 3 | * | 2 | - | 1 | += | 12 | += | 1 | += | += | - | 14 | += |
-| ------ | - | - | - | - | - | -- | -- | -- | - | -- | -- | - | -- | -- |
-| Output |   |   |   | 6 |   | 5  |    | 17 |   | 18 | 19 |   |    | 5  | 
+| Input  | 3 | * | 2 | - | 1 | += | 12 | += | 1 | += | += | - | 14 | += | * | 2 | += |
+| ------ | - | - | - | - | - | -- | -- | -- | - | -- | -- | - | -- | -- | - | - | -- |
+| Output |   |   |   | 6 |   | 5  |    | 17 |   | 18 | 19 |   |    | 5  |   |   | 10 |
    
 ## Chaining input
 The one side effect of this is that chaining addition must be done in a specific way:  
